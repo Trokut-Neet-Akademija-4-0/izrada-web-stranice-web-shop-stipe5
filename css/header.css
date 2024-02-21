@@ -1,0 +1,29 @@
+.socials a:hover i{
+    color:white;
+}
+.socials i {
+    transition: all 100ms ease-out;
+}
+.search button:hover {
+    background-color: white;
+}
+.search button:hover i {
+    color: black!important;
+}
+.scart i:hover {
+    color: white;
+}
+.scart i {
+    transition: all 100ms ease-out;
+}
+.header-nav li a{
+    color: white;
+    padding: 10px;
+}
+.header-nav li a:hover{
+    color: var(--accent-text-color);
+    background-color: var(--third-background-color);
+}
+.header-nav li .active {
+    color: var(--accent-text-color)!important;
+}

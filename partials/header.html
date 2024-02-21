@@ -1,54 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
-</head>
-<body>
-    <object>
-        <div class="header">
-            <div class="header-row1">
-                <div class="row1-left">
-                    <div class="email-header">
-                        <i class="fa-solid fa-at"></i>
-                        <a href="mailto: info@gameon.hr">info@gameon.hr</a>
-                    </div>
-                    <div class="telefon-header">
-                        <i class="fa-solid fa-phone"></i>
-                        <a href="tel: 0997896854">099 789 6854</a>
-                    </div>
-                </div>
-                <div class="row1-middle">
-                    <i class="socials fa-brands fa-facebook"></i>
-                    <i class="socials fa-brands fa-instagram"></i>
-                    <i class="socials fa-brands fa-twitter"></i>
-                    <i class="socials fa-brands fa-youtube"></i>
-                </div>
-                <div class="row1-right">
-                    <div class="search">
-                        <input type="text" placeholder="Pretraži..." name="searchInput">
-                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-            </div>
-            <div class="header-row2">
-                <div class="logo">
-                    <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li>Naslovna</li>
-                        <li>O nama</li>
-                        <li>Blog</li>
-                        <li>Kontakt</li>
-                    </ul>
-                </div>
-            </div>
+<div class="container-fluid d-flex flex-row justify-content-between main-bg-color align-items-center p-2">
+    <div class="d-flex flex-row justify-content-center align-items-center">
+        <div class="email-header d-flex flex-row justify-content-center align-items-center ms-3 me-0">
+            <i class="bi bi-envelope-at-fill me-1"></i>
+            <a class="text-black text-decoration-none" href="mailto: info@gameon.hr">info@gameon.hr</a>
         </div>
-    </object>
-</body>
-</html>
+        <div class="telefon-header d-flex flex-row justify-content-center align-items-center mx-3">
+            <i class="bi bi-telephone-fill me-1"></i>
+            <a class="text-black text-decoration-none" href="tel: 0997896854">099 789 6854</a>
+        </div>
+    </div>
+    <div class="d-flex flex-wrap socials justify-content-center align-items-center">
+        <a class="text-black text-decoration-none mx-1" href="#"><i class="bi bi-facebook fs-5"></i></a>
+        <a class="text-black text-decoration-none mx-1" href="#"><i class="bi bi-instagram fs-5"></i></a>
+        <a class="text-black text-decoration-none mx-1" href="#"><i class="bi bi-twitter fs-5"></i></a>
+        <a class="text-black text-decoration-none mx-1" href="#"><i class="bi bi-youtube fs-5"></i></a>
+    </div>
+    <div class="d-flex flex-row justify-content-center align-items-center">
+        <div class="search d-flex flex-row input-group me-3">
+            <input type="text" placeholder="Pretraži..." name="searchInput" class="form-control">
+            <button type="submit" class="secondary-bg-color btn"><i class="bi bi-search text-white"></i></button>
+        </div>
+        <div class="me-3 scart">
+            <i class="bi bi-cart-fill fs-5"></i>
+        </div>
+    </div>
+</div>
+<div class="container-fluid d-flex flex-column justify-content-between secondary-bg-color align-items-center p-2">
+    <div class="container d-flex justify-content-center align-items-center">
+        <a href="../index.html"><img src="../images/Logo.png" alt="GameOn" class="img-fluid"></a>
+    </div>
+    <div class="navbar navbar-expand-lg">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-nav">
+            <li class="nav-item"><a class="nav-link active p-3 m-0" href="../index.html">Naslovna</a></li>
+            <li class="nav-item"><a class="nav-link p-3 m-0" href="../products.html">Proizvodi</a></li>
+            <li class="nav-item"><a class="nav-link p-3 m-0" href="../about.html">O nama</a></li>
+            <li class="nav-item"><a class="nav-link p-3 m-0" href="../blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link p-3 m-0" href="../contact.html">Kontakt</a></li>
+        </ul>
+    </div>
+</div>

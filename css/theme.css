@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+    --main-background-color: #E53D00;
+    --secondary-background-color: #343434;
+    --third-background-color: white;
+    --main-text-color: white;
+    --secondary-text-color: #343434;
+    --accent-text-color: #E53D00;
+    --main-font: 'Ubuntu', sans-serif;
+    --secondary-font: 'Playfair Display', serif;
+}
+.main-font {
+    font-family: var(--main-font);
+}
+.secondary-font {
+    font-family: var(--secondary-font);
+}
+.main-text-color {
+    color: var(--main-text-color);
+}
+.secondary-text-color {
+    color: var(--secondary-text-color);
+}
+.accent-text-color {
+    color: var(--accent-text-color);
+}
+.main-bg-color {
+    background-color: var(--main-background-color);
+}
+.secondary-bg-color {
+    background-color: var(--secondary-background-color);
+}
+.third-bg-color {
+    background-color: white;
+}
