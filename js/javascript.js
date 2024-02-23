@@ -8,3 +8,9 @@ function initPartial (element) {
 }
 initPartial("header");
 initPartial("footer");
+
+function headerActive(id) {
+  let selector = document.getElementById(id);
+  selector.classList.add("active");
+}
+
